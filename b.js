@@ -1,3 +1,5 @@
-import a from './a.js';
+import { a } from './a.js';
 
-export default message = `b.js: ${a}`;
+console.log('b.js: a:', a);
+
+export const b = 'B';
