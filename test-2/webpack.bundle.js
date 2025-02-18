@@ -1,0 +1,1 @@
+(()=>{"use strict";document.getElementById("message").innerHTML=function e(){return`a.js: b.js: ${e()}`}()})();

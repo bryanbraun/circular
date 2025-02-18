@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("b.js:",s);const e=b="B";console.log("a.js:",e);const s=a="A";document.getElementById("message").innerHTML=s()})();
