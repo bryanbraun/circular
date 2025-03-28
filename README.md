@@ -23,7 +23,7 @@ python3 -m http.server 1111
 
 ### Test 3: No error (due to eventually resolved values)
 
-1. Browser: `http://localhost:1111/test-2/`
-2. Node (Modules): `node test-2/node-entry.mjs`
-3. Webpack: `http://localhost:1111/test-2/webpack-index.html`
+1. Browser: `http://localhost:1111/test-3/`
+2. Node (Modules): `node test-3/node-entry.mjs`
+3. Webpack: `http://localhost:1111/test-3/webpack-index.html`
 
