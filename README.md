@@ -13,7 +13,8 @@ python3 -m http.server 1111
 
 1. Browser: `http://localhost:1111/test-1/`
 2. Node (Modules): `node test-1/node-entry.mjs`
-3. Webpack: `http://localhost:1111/test-1/webpack-index.html`
+3. Node (CommonJS): `node test-1/node-entry.cjs`
+4. Webpack: `http://localhost:1111/test-1/webpack-index.html`
 
 ### Test 2: No error (due to function hoisting)
 

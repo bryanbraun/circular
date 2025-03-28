@@ -14,4 +14,7 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: './[name]/webpack.bundle.js',
   },
+  optimization: {
+    minimize: false
+  },
 };
