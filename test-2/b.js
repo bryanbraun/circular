@@ -1,5 +1,4 @@
-import a from './a.js';
+import { a } from './a.js';
 
-export default function getMessage() {
-  return `b.js: ${a()}`;
-}
+console.log('b.js:', a());
+export function b() { return 'B' };

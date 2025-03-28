@@ -1,1 +1,1 @@
-(()=>{"use strict";document.getElementById("message").innerHTML=function e(){return`a.js: b.js: ${e()}`}()})();
+(()=>{"use strict";console.log("b.js:","A"),console.log("a.js:","B"),document.getElementById("message").innerHTML="A"})();

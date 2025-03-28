@@ -1,3 +1,4 @@
-import a from './a.js';
+import { a } from './a.js';
+
 console.log('b.js:', a);
-export default b = 'B';
+export const b = 'B';
